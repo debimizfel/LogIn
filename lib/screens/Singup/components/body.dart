@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:login/components/rounded_button.dart';
+import 'package:login/components/rounded_input_field.dart';
 import 'package:login/components/rounded_password_field.dart';
 import 'package:login/screens/Singup/components/background.dart';
-import 'package:login/screens/LogIn/components/rounded_input_field.dart';
 import '../../../constants.dart';
 import '../../already_have_an_account.dart';
 
