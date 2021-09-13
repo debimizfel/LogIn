@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:login/constants.dart';
 import 'package:login/screens/LogIn/logIn-screen.dart';
+import 'package:login/screens/Singup/singup_screen.dart';
 import 'package:login/screens/Welcome/welcome_screen.dart';
 
 void main() {
@@ -18,10 +19,11 @@ class MyApp extends StatelessWidget {
         primaryColor: kPrimaryColor,
         scaffoldBackgroundColor: Colors.white,
       ),
-      initialRoute: 'logIn_screen',
+      initialRoute: 'singup_screen',
       routes: {
         "welcome_screen": (context) => const WelcomeScreen(),
-        "logIn_screen": (context) => const LogIn(),
+        "login_screen": (context) => const LoginScreen(),
+        "singup_screen": (context) => const SingUpScreen(),
       },
     );
   }
