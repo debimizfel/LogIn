@@ -33,7 +33,7 @@ class Body extends StatelessWidget {
             press: () => Navigator.pushNamed(context, 'login_screen'),
           ),
           RoundedButton(
-            text: 'SINGUP',
+            text: 'SIGNUP',
             color: kPrimaryLightColor,
             textcolor: Colors.black,
             press: () => Navigator.pushNamed(context, 'singup_screen'),

@@ -15,7 +15,7 @@ class AlreadyHaveAnAccount extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Text(
-          login ? 'Don\'t have an account?' : 'Already Have an Account',
+          login ? 'Don\'t have an account?' : 'Already Have an Account?',
           style: TextStyle(
             color: Colors.grey,
           ),
@@ -24,7 +24,7 @@ class AlreadyHaveAnAccount extends StatelessWidget {
         GestureDetector(
           onTap: press,
           child: Text(
-            login ? 'Sing Up' : 'Sing In',
+            login ? 'Sign Up' : 'Sign In',
             style: TextStyle(
               color: Colors.grey,
               fontWeight: FontWeight.bold,
